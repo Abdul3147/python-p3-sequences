@@ -19,6 +19,8 @@ class TestPrintFibonacci:
 
     def test_print_fibonacci_one(self):
         '''prints 0 when length = 1'''
+     
+
         captured_out = io.StringIO()
         sys.stdout = captured_out
         print_fibonacci(1)
